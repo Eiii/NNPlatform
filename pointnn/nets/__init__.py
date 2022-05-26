@@ -4,6 +4,8 @@ from . import sc2
 from . import weather
 from . import traffic
 
+from .cifar import CIFARConv
+
 
 def make_net(net_args):
     class_name = net_args['net_type']

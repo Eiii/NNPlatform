@@ -16,7 +16,7 @@ class Trainer:
     """Defines and tracks the state of a training run"""
     def __init__(self, name, net, problem, out_path, epochs,
                  report_every=0.1, valid_every=1,
-                 optim='adam', sched='cos',
+                 optim='adam', sched='none',
                  batch_size=4,
                  lr=1e-3, min_lr=0,
                  weight_decay=0, momentum=0.95,

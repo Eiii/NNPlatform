@@ -2,6 +2,7 @@ from . import base
 from . import starcraft
 from . import weather
 from . import traffic
+from .cifar import CIFAR
 
 
 def make_problem(problem_args):
